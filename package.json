@@ -42,7 +42,8 @@
     "commitizen": "^4.0.3",
     "cz-conventional-changelog": "^3.0.2",
     "husky": "^3.1.0",
-    "lint-staged": "^9.5.0"
+    "lint-staged": "^9.5.0",
+    "validate-commit-msg": "^2.14.0"
   },
   "config": {
     "commitizen": {
@@ -54,5 +55,11 @@
       "npm run lint:fix",
       "git add"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "validate-commit-msg",
+      "pre-commit": "lint-staged"
+    }
   }
 }
