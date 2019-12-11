@@ -1,9 +1,11 @@
 import React from "react";
-
+import DefaultLayout from "../../components/Layout/default";
 const App: React.FC = () => {
   return (
     <>
-      <div>Hei React</div>
+      <DefaultLayout>
+        <div>Hei React</div>
+      </DefaultLayout>
     </>
   );
 };
