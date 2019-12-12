@@ -41,6 +41,7 @@
   },
   "proxy": "https://happysoner.com",
   "devDependencies": {
+    "@types/reach__router": "^1.2.6",
     "@types/styled-jsx": "^2.2.8",
     "babel-plugin-macros": "^2.8.0",
     "babel-plugin-module-resolver": "^3.2.0",
